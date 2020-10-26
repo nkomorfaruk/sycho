@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Open+Sans:wght@300&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+   /*
+
+   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Rubik', sans-serif;
+
+   */
+
+/* Theme color set up  */
+:root{
+	--theme-bg:#056c5f;
+	--theme-bg-2:#f8a683;
+	--white: #fff;
+	--slider-height: 1050px;
+   --theme-gray: #f8f2ed;
+   --rate: orange;
+   --bg-black: #000;
+}
+.theme-bg-default{
+	background: var(--theme-bg);
+}
+.theme-bg-secondary{
+	background: var(--theme-bg-2);
+}
+.theme-bg-gray{
+	background: var(--theme-gray);
+}
+.theme-color-default{
+	color: var(--theme-bg);
+}
+.theme-color-secondary{
+	color: var(--theme-bg-2);
+}
+.bg-black{
+   background: var(--bg-black);
+}
+.bg-white{
+   background: var(--bg-black);
+}
+.text-color-white{
+   color: var(--white);
+}
+.text-color-black{
+   color: var(--bg-black);
+}
+.review-rate{
+   color: var(--rate);
+}
+
+/* theme hover :default  */
+.theme-hover{
+	transition: 0.5s;
+}
+.theme-hover:hover{
+	background: var(--theme-bg-2) !important;
+}
+
+
+   ---------------------
+   Font Awesome 5 theme icon go to the link https://fontawesome.com
+   ---------------------
+   <i class="fas fa-phone-alt"></i>
+   <i class="fas fa-align-left"></i>
+   <i class="far fa-thumbs-up"></i>
+   <i class="fas fa-plus"></i>
+   <i class="fas fa-location-arrow"></i>
+   <i class="far fa-user"></i>
+   <i class="far fa-comment-dots"></i>
+   <i class="fas fa-tags"></i>
+   <i class="far fa-envelope-open"></i>
+   <i class="fas fa-long-arrow-alt-right"></i>
+   <i class="far fa-circle"></i>
+   <i class="fas fa-long-arrow-alt-left"></i>
+   <i class="fab fa-facebook-f"></i>
+   <i class="fab fa-twitter"></i>
+   <i class="fab fa-instagram"></i>
+   <i class="fab fa-pinterest-p"></i>
+   <i class="fab fa-linkedin-in"></i>
+
+Thank you for visited our theme

@@ -1,0 +1,92 @@
+/*-----------------------------------------------------------
+    Responsive @media Query Here
+-------------------------------------------------------------*/
+/* ( Desktop device :1200px ) */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	nav ul li a{
+		padding: 5px 15px;
+		transition: 0.5s;
+	}
+}
+
+/* ( Laptop desktop :992px ) */
+@media (min-width: 992px) and (max-width: 1200px) {
+	nav ul li a {
+		padding: 5px 7px;
+	}
+	.specific-height {
+		padding-bottom: 175px;
+	}
+	.mt-minus-300 {
+		margin-top: -154px;
+	}
+
+}
+
+/* ( Tablet device :768px ) */
+@media (min-width: 768px) and (max-width: 991px) {
+	.mt-minus-150{
+		margin-top: 0px;
+	}
+	.mt-minus-300{
+		margin-top: 0px;
+	}
+	.mt-minus-50{
+		margin-top: 0px;
+	}
+	img.mt-minus-50{
+		margin-left: 0px;
+		width: 100%;
+	}
+	.specific-height {
+		padding-bottom: 124px;
+		background-color: var(--theme-gray);
+	}
+	.project-counted h4{
+		font-size: 14px;
+	}
+	.display-4 {
+		font-size: 2.5rem;
+	}
+}
+
+/* ( Big Mobile device :567px ) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.mt-minus-50 {
+		width: 100%;
+		margin-left: 0;
+		padding-top: 35px;
+	}
+	.mt-minus-150 {
+		margin-top: -150px;
+	}
+	.specific-height{
+		padding-bottom: 127px;
+	}
+	.mt-minus-300 {
+		margin-top: -100px;
+	}
+}
+
+/* ( Small devices ) */
+@media (max-width: 575.98px) {
+	.mt-minus-50 {
+		width: 100%;
+		margin-left: 0;
+	}
+	.appointment-form {
+		margin-top: 70px;
+	}
+	.mt-minus-300 {
+		margin-top: 100px;
+	}
+	.specific-height {
+		padding-bottom: 124px;
+	}
+	.phone-number{
+		display: none;
+	}
+}
+
+/* ( Extra small devices ) */
+@media (max-width: 300px) {}
